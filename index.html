@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="резюме, html, css">
+    <meta name="description" content="Учебный сайт по html и css">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            <div class="container-avatar">
+                <img src="photo.jpg" alt="photo" class="avatar">
+            </div>
+            <div class="info-text">
+                <h1>Алексей Бердников</h1>
+                <p>Меня зовут Алексей, в последнее время разрабатываю на pet-проект Vue3, есть опыт работы с React.
+                    Проекты, которые я разрабатывал, созданы по собственной инициативе, поэтому программирование пока
+                    что для меня хобби. Хочу применять свои навыки в реальных задачах.
+                </p>
+                <p>С моими pet-проектами можно ознакомиться в <a href="https://github.com/R1zz0ne"
+                        target="_blank"><u>GIT</u></a>
+                </p>
+                <h3>Список социальных сетей:</h3>
+                <a href="https://t.me/r1zz0ne" target="_blank">Telegram</a> |
+                <a href="https://github.com/R1zz0ne" target="_blank">GitHub</a>
+            </div>
+        </div>
+        <div class="card bg-green">
+            <h3>Мои хобби:</h3>
+            <ul class="list">
+                <li>Настольный теннис</li>
+                <li>Компьютерные игры</li>
+            </ul>
+        </div>
+        <div class="card bg-red">
+            <h3>Опыт работы</h3>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>Pet-проект "VueTasks"</td>
+                        <td>-</td>
+                        <td>2024 - по н.вр.</td>
+                    </tr>
+                    <tr>
+                        <td>ООО "ЛАНИТ-ТЕХНОЛОГИИ"</td>
+                        <td>Менеджер по тестированию</td>
+                        <td>2018 - по н.вр.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="card bg-yellow">
+            <h3>Профессиональные навыки</h3>
+            <ul>
+                <li>
+                    <a href="https://learn.javascript.ru/" target="_blank">JavaScript,</a>
+                    <a href="https://www.typescriptlang.org/" target="_blank">TypeScript,</a>
+                    <a href="https://developer.mozilla.org/ru/docs/Web/HTML" target="_blank">HTML,</a>
+                    <a href="https://developer.mozilla.org/ru/docs/Web/CSS" target="_blank">CSS</a>
+                </li>
+                <li>
+                    <a href="https://vuejs.org/" target="_blank">Vue,</a>
+                    <a href="https://vuex.vuejs.org/" target="_blank">Vuex,</a>
+                    <a href="https://router.vuejs.org/" target="_blank">Vue-router,</a>
+                    <a href="https://zod.dev/" target="_blank">Zod,</a>
+                    <a href="https://vitest.dev/" target="_blank">Vitest,</a>
+                    <a href="https://test-utils.vuejs.org/" target="_blank">Vue-test-utils</a>
+                </li>
+                <li>
+                    <a href="https://ru.legacy.reactjs.org/" target="_blank">React,</a>
+                    <a href="https://redux.js.org/" target="_blank">Redux,</a>
+                    <a href="https://redux-toolkit.js.org/" target="_blank">Redux-Toolkit,</a>
+                    <a href="https://formik.org/" target="_blank">Formik,</a>
+                    <a href="https://www.npmjs.com/package/yup" target="_blank">Yup</a>
+                </li>
+                <li>
+                    <a href="https://ru.wikipedia.org/wiki/REST" target="_blank">REST API,</a>
+                    <a href="https://axios-http.com/ru/" target="_blank">Axios,</a>
+                    <a href="https://ru.wikipedia.org/wiki/WebSocket" target="_blank">WebSocket,</a>
+                    <a href="https://socket.io/" target="_blank">Socket.IO,</a>
+                    <a href="https://ru.wikipedia.org/wiki/SQL" target="_blank">SQL,</a>
+                    <a href="https://git-scm.com/" target="_blank">Git,</a>
+                    <a href="https://www.docker.com/" target="_blank">Docker,</a>
+                    <a href="https://nodejs.org/en" target="_blank">Node.js</a>
+                </li>
+            </ul>
+        </div>
+        <div class="card">
+            <form action="/" class="form">
+                <h3>Связаться со мной</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
+                </div>
+                <button type="submit" class="btn">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <div></div>
+</body>
+
+</html>
