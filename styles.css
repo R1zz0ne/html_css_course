@@ -19,6 +19,7 @@ body {
 
 .container__info {
     display: flex;
+    margin-bottom: 10px;
 }
 
 .container__info-avatar {
